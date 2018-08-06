@@ -14,23 +14,7 @@ pipeline {
       }
     }
     
-    stages {
-    stage('Say Destroy')
-       {
-      agent any
-
-      steps {
-        sayHello 'maa ki aankh'
-      }
-    }
     
-    stage('Say Hello1') {
-      agent any
-
-      steps {
-        sayHello 'Awesome Student2!'
-      }
-    }
     stage('Git Information') {
       agent any
 
