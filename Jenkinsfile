@@ -13,6 +13,14 @@ pipeline {
         sayHello 'Awesome Student!'
       }
     }
+    
+    stage('Say Hello1') {
+      agent any
+
+      steps {
+        sayHello 'Awesome Student2!'
+      }
+    }
     stage('Git Information') {
       agent any
 
