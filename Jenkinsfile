@@ -15,11 +15,7 @@ pipeline {
     }
     
     
-    stage('Git Information') {
-      agent any
-
-      
-    }
+    
     stage('Unit Tests') {
       agent {
         label 'apache'
