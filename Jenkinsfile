@@ -14,6 +14,15 @@ pipeline {
       }
     }
     
+    stages {
+    stage('Say Destroy') {
+      agent any
+
+      steps {
+        sayHello 'maa ki aankh'
+      }
+    }
+    
     stage('Say Hello1') {
       agent any
 
