@@ -15,7 +15,8 @@ pipeline {
     }
     
     stages {
-    stage('Say Destroy') {
+    stage('Say Destroy')
+       {
       agent any
 
       steps {
@@ -148,4 +149,4 @@ pipeline {
       )
     }
   }
-}
+  }}
